@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"sort"
 	"strconv"
 	"sync"
 	"time"
@@ -50,14 +51,23 @@ func GetAllLeagueSchedule(league_ids []int) []util.League {
 			for _, team := range all_team {
 				idtoteam[team.TeamID] = util.Team{Name: team.TeamName, Tag: team.TeamTag}
 			}
-			all_match := league.SeriesInfos
-			for _, match := range all_match {
-				startime := time.Unix(int64(match.StartTime), 0).Truncate(5 * time.Minute)
-				bo := match.SeriesType*2 + 1
-				matchs = append(matchs, util.Match{Team1: idtoteam[match.TeamID1], Team2: idtoteam[match.TeamID2], StartTime: startime, UnixStartTime: match.StartTime, BO: bo})
+			for _, node := range league.NodeGroups {
+				for _, node2 := range node.NodeGroups {
+					for _, match := range node2.Nodes {
+						if match.ScheduledTime == 0 {
+							continue
+						}
+						startime := time.Unix(int64(match.ScheduledTime), 0).Truncate(5 * time.Minute)
+						matchs = append(matchs, util.Match{Team1: idtoteam[match.TeamID1], Team2: idtoteam[match.TeamID2],
+							StartTime: startime, UnixStartTime: match.ScheduledTime, BO: util.NodeTypeToBO(match.NodeType)})
+					}
+				}
 			}
-
+			sort.Slice(matchs, func(i, j int) bool {
+				return matchs[i].StartTime.Before(matchs[j].StartTime)
+			})
 			ansC <- util.League{Name: league.Info.Name, Region: util.RegionIntToRegionString(league.Info.Region), Matchs: matchs}
+			//fmt.Println(len(matchs))
 			wg.Done()
 		}()
 	}
@@ -65,7 +75,6 @@ func GetAllLeagueSchedule(league_ids []int) []util.League {
 	for range league_ids {
 		ans = append(ans, <-ansC)
 	}
-
 	wg.Wait()
 	return ans
 }
