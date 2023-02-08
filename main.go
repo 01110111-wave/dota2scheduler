@@ -21,8 +21,13 @@ func init() {
 
 func main() {
 	flag.Parse()
+	if leagueIDs == "none" {
+		fmt.Print("please input leagueID separate with comma (Ex.14859,14927,14921 ): ")
+		fmt.Scanln(&leagueIDs)
+	}
 	stringIDs := strings.Split(leagueIDs, ",")
 	IDs := []int{}
+
 	for _, v := range stringIDs {
 		ID, err := strconv.Atoi(v)
 		if err != nil {
@@ -30,10 +35,7 @@ func main() {
 		}
 		IDs = append(IDs, ID)
 	}
-	if leagueIDs == "none" {
-		fmt.Print("please input leagueID separate with comma (Ex.14859,14927,14921 ): ")
-		fmt.Scanln(&leagueIDs)
-	}
+
 	schedule := callapi.GetAllLeagueSchedule(IDs)
 	//fmt.Println(schedule[0].Matchs)
 
