@@ -49,5 +49,7 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
+	fmt.Println("success")
+	fmt.Scanln()
 	//fmt.Println(util.IntToCapitalString(2))
 }
