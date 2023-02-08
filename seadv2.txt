@@ -1,0 +1,1407 @@
+{
+	"leagues": [
+		{
+			"info": {
+				"league_id": 14928,
+				"name": "DPC 2023 SEA Winter Tour Division II - presented by Epulze",
+				"tier": 8,
+				"region": 6,
+				"url": "https:\/\/epulze.com\/event\/sea-dpc-winter-tour-23",
+				"description": "This is the Division II of the Southeast Asian Winter Tour DPC. The top 2 teams will qualify for the Division I Spring Tour.",
+				"notes": "",
+				"start_timestamp": 1675065600,
+				"end_timestamp": 1676966400,
+				"pro_circuit_points": 0,
+				"image_bits": 1537,
+				"status": 3,
+				"most_recent_activity": 1675832542,
+				"registration_period": 8
+			},
+			"prize_pool": {
+				"base_prize_pool": 75000,
+				"total_prize_pool": 75000,
+				"prize_split_pct_x100": [
+					2267,
+					2133,
+					2000,
+					1467,
+					1200,
+					933
+				],
+				"prize_pool_items": []
+			},
+			"admins": [],
+			"streams": [
+				{
+					"stream_id": 4706,
+					"language": 0,
+					"name": "EpulzeGaming",
+					"broadcast_provider": 2,
+					"stream_url": "https:\/\/www.twitch.tv\/epulzegaming",
+					"vod_url": "https:\/\/www.youtube.com\/@EpulzeGaming\/videos"
+				},
+				{
+					"stream_id": 4707,
+					"language": 8,
+					"name": "Fissure",
+					"broadcast_provider": 2,
+					"stream_url": "https:\/\/www.twitch.tv\/betboom_ru",
+					"vod_url": ""
+				},
+				{
+					"stream_id": 4708,
+					"language": 6,
+					"name": "TBD",
+					"broadcast_provider": 100,
+					"stream_url": "",
+					"vod_url": ""
+				}
+			],
+			"node_groups": [
+				{
+					"name": "",
+					"node_group_id": 1,
+					"parent_node_group_id": 0,
+					"incoming_node_group_ids": [],
+					"advancing_node_group_id": 0,
+					"advancing_team_count": 0,
+					"team_count": 8,
+					"node_group_type": 1,
+					"default_node_type": 0,
+					"round": 1,
+					"max_rounds": 0,
+					"is_tiebreaker": false,
+					"is_final_group": false,
+					"is_completed": false,
+					"phase": 3,
+					"region": 0,
+					"start_time": 0,
+					"end_time": 0,
+					"secondary_advancing_node_group_id": 0,
+					"secondary_advancing_team_count": 0,
+					"tertiary_advancing_node_group_id": 0,
+					"tertiary_advancing_team_count": 0,
+					"elimination_dpc_points": 0,
+					"team_standings": [
+						{
+							"standing": 0,
+							"team_id": 8261554,
+							"team_name": "Army Geniuses",
+							"team_tag": "AG",
+							"team_logo": "1672491383394456562",
+							"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/1672491383394456562\/9D45CAD8AC1FBB995F744F2751AAF4E36493913E\/",
+							"wins": 0,
+							"losses": 0,
+							"score": "0",
+							"team_abbreviation": "AG",
+							"score_tiebreak_group": "0",
+							"score_tiebreak_below": "0",
+							"score_tiebreak_random": "0",
+							"is_pro": true
+						},
+						{
+							"standing": 0,
+							"team_id": 8525778,
+							"team_name": "Polaris Esports",
+							"team_tag": "Polaris",
+							"team_logo": "1831290045925630948",
+							"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/1831290045925630948\/400C4E5FD779D964D9BEC5E44D414073ADC03790\/",
+							"wins": 0,
+							"losses": 0,
+							"score": "0",
+							"team_abbreviation": "PLR",
+							"score_tiebreak_group": "0",
+							"score_tiebreak_below": "0",
+							"score_tiebreak_random": "0",
+							"is_pro": true
+						},
+						{
+							"standing": 0,
+							"team_id": 8538804,
+							"team_name": "Atlantis",
+							"team_tag": "Atl",
+							"team_logo": "1622975098310096562",
+							"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/1622975098310096562\/A5295477C5A6A3A4765D1BDB457139EA3A24E3A7\/",
+							"wins": 0,
+							"losses": 0,
+							"score": "0",
+							"team_abbreviation": "Atl",
+							"score_tiebreak_group": "0",
+							"score_tiebreak_below": "0",
+							"score_tiebreak_random": "0",
+							"is_pro": true
+						},
+						{
+							"standing": 0,
+							"team_id": 8572181,
+							"team_name": "UD VESSUWAN",
+							"team_tag": "UDV",
+							"team_logo": "5084032633793520363",
+							"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/5084032633793520363\/C7E45087AE899E96E7217B956B136CFE2EEFC8B6\/",
+							"wins": 0,
+							"losses": 0,
+							"score": "0",
+							"team_abbreviation": "UDV",
+							"score_tiebreak_group": "0",
+							"score_tiebreak_below": "0",
+							"score_tiebreak_random": "0",
+							"is_pro": true
+						},
+						{
+							"standing": 0,
+							"team_id": 8736661,
+							"team_name": "Xerxia",
+							"team_tag": "Xerxia",
+							"team_logo": "1899975198387120959",
+							"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/1899975198387120959\/F3281DD8CF9289232B5D5E73E14662AC465E4F8A\/",
+							"wins": 0,
+							"losses": 0,
+							"score": "0",
+							"team_abbreviation": "Xerx",
+							"score_tiebreak_group": "0",
+							"score_tiebreak_below": "0",
+							"score_tiebreak_random": "0",
+							"is_pro": true
+						},
+						{
+							"standing": 0,
+							"team_id": 8863825,
+							"team_name": "SPAWN Team",
+							"team_tag": "SPAWN",
+							"team_logo": "1964160821231140204",
+							"team_logo_url": "",
+							"wins": 0,
+							"losses": 0,
+							"score": "0",
+							"team_abbreviation": "SPWN",
+							"score_tiebreak_group": "0",
+							"score_tiebreak_below": "0",
+							"score_tiebreak_random": "0",
+							"is_pro": true
+						},
+						{
+							"standing": 0,
+							"team_id": 8936995,
+							"team_name": "Team Flow",
+							"team_tag": "Flow",
+							"team_logo": "1984428656363240527",
+							"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/1984428656363240527\/79CB6F3ABD3359F941ECA8842B8BD7E9B28991C8\/",
+							"wins": 0,
+							"losses": 0,
+							"score": "0",
+							"team_abbreviation": "",
+							"score_tiebreak_group": "0",
+							"score_tiebreak_below": "0",
+							"score_tiebreak_random": "0",
+							"is_pro": true
+						},
+						{
+							"standing": 0,
+							"team_id": 8944302,
+							"team_name": "Myth Avenue Gaming",
+							"team_tag": "MAG",
+							"team_logo": "2058741574587042126",
+							"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/2058741574587042126\/B5EFD103F18CCC3C3172877624743614E9BF61C0\/",
+							"wins": 0,
+							"losses": 0,
+							"score": "0",
+							"team_abbreviation": "MAG",
+							"score_tiebreak_group": "0",
+							"score_tiebreak_below": "0",
+							"score_tiebreak_random": "0",
+							"is_pro": true
+						}
+					],
+					"nodes": [],
+					"node_groups": [
+						{
+							"name": "Round Robin",
+							"node_group_id": 2,
+							"parent_node_group_id": 1,
+							"incoming_node_group_ids": [],
+							"advancing_node_group_id": 0,
+							"advancing_team_count": 0,
+							"team_count": 8,
+							"node_group_type": 2,
+							"default_node_type": 2,
+							"round": 1,
+							"max_rounds": 0,
+							"is_tiebreaker": false,
+							"is_final_group": true,
+							"is_completed": false,
+							"phase": 3,
+							"region": 0,
+							"start_time": 0,
+							"end_time": 0,
+							"secondary_advancing_node_group_id": 0,
+							"secondary_advancing_team_count": 0,
+							"tertiary_advancing_node_group_id": 0,
+							"tertiary_advancing_team_count": 0,
+							"elimination_dpc_points": 0,
+							"team_standings": [
+								{
+									"standing": 1,
+									"team_id": 8261554,
+									"team_name": "Army Geniuses",
+									"team_tag": "AG",
+									"team_logo": "1672491383394456562",
+									"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/1672491383394456562\/9D45CAD8AC1FBB995F744F2751AAF4E36493913E\/",
+									"wins": 3,
+									"losses": 0,
+									"score": "300000000000000",
+									"team_abbreviation": "AG",
+									"score_tiebreak_group": "0",
+									"score_tiebreak_below": "0",
+									"score_tiebreak_random": "0",
+									"is_pro": true
+								},
+								{
+									"standing": 2,
+									"team_id": 8525778,
+									"team_name": "Polaris Esports",
+									"team_tag": "Polaris",
+									"team_logo": "1831290045925630948",
+									"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/1831290045925630948\/400C4E5FD779D964D9BEC5E44D414073ADC03790\/",
+									"wins": 2,
+									"losses": 0,
+									"score": "200000000000000",
+									"team_abbreviation": "PLR",
+									"score_tiebreak_group": "0",
+									"score_tiebreak_below": "0",
+									"score_tiebreak_random": "0",
+									"is_pro": true
+								},
+								{
+									"standing": 3,
+									"team_id": 8863825,
+									"team_name": "SPAWN Team",
+									"team_tag": "SPAWN",
+									"team_logo": "1964160821231140204",
+									"team_logo_url": "",
+									"wins": 1,
+									"losses": 1,
+									"score": "99000000000000",
+									"team_abbreviation": "SPWN",
+									"score_tiebreak_group": "1",
+									"score_tiebreak_below": "0",
+									"score_tiebreak_random": "0",
+									"is_pro": true
+								},
+								{
+									"standing": 4,
+									"team_id": 8944302,
+									"team_name": "Myth Avenue Gaming",
+									"team_tag": "MAG",
+									"team_logo": "2058741574587042126",
+									"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/2058741574587042126\/B5EFD103F18CCC3C3172877624743614E9BF61C0\/",
+									"wins": 1,
+									"losses": 1,
+									"score": "99000000000000",
+									"team_abbreviation": "MAG",
+									"score_tiebreak_group": "0",
+									"score_tiebreak_below": "0",
+									"score_tiebreak_random": "0",
+									"is_pro": true
+								},
+								{
+									"standing": 5,
+									"team_id": 8936995,
+									"team_name": "Team Flow",
+									"team_tag": "Flow",
+									"team_logo": "1984428656363240527",
+									"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/1984428656363240527\/79CB6F3ABD3359F941ECA8842B8BD7E9B28991C8\/",
+									"wins": 1,
+									"losses": 1,
+									"score": "99000000000000",
+									"team_abbreviation": "",
+									"score_tiebreak_group": "-1",
+									"score_tiebreak_below": "0",
+									"score_tiebreak_random": "0",
+									"is_pro": true
+								},
+								{
+									"standing": 6,
+									"team_id": 8572181,
+									"team_name": "UD VESSUWAN",
+									"team_tag": "UDV",
+									"team_logo": "5084032633793520363",
+									"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/5084032633793520363\/C7E45087AE899E96E7217B956B136CFE2EEFC8B6\/",
+									"wins": 1,
+									"losses": 2,
+									"score": "98000000000000",
+									"team_abbreviation": "UDV",
+									"score_tiebreak_group": "0",
+									"score_tiebreak_below": "0",
+									"score_tiebreak_random": "0",
+									"is_pro": true
+								},
+								{
+									"standing": 7,
+									"team_id": 8538804,
+									"team_name": "Atlantis",
+									"team_tag": "Atl",
+									"team_logo": "1622975098310096562",
+									"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/1622975098310096562\/A5295477C5A6A3A4765D1BDB457139EA3A24E3A7\/",
+									"wins": 0,
+									"losses": 2,
+									"score": "-2000000000000",
+									"team_abbreviation": "Atl",
+									"score_tiebreak_group": "0",
+									"score_tiebreak_below": "0",
+									"score_tiebreak_random": "0",
+									"is_pro": true
+								},
+								{
+									"standing": 7,
+									"team_id": 8736661,
+									"team_name": "Xerxia",
+									"team_tag": "Xerxia",
+									"team_logo": "1899975198387120959",
+									"team_logo_url": "https:\/\/steamusercontent-a.akamaihd.net\/ugc\/1899975198387120959\/F3281DD8CF9289232B5D5E73E14662AC465E4F8A\/",
+									"wins": 0,
+									"losses": 2,
+									"score": "-2000000000000",
+									"team_abbreviation": "Xerx",
+									"score_tiebreak_group": "0",
+									"score_tiebreak_below": "0",
+									"score_tiebreak_random": "0",
+									"is_pro": true
+								}
+							],
+							"nodes": [
+								{
+									"name": "Match 24",
+									"node_id": 1,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676631600,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8261554,
+									"team_id_2": 8525778,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 6",
+									"node_id": 2,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1675508400,
+									"actual_time": 1675422023,
+									"series_id": 746713,
+									"team_id_1": 8261554,
+									"team_id_2": 8538804,
+									"matches": [
+										{
+											"match_id": "6999648564",
+											"winning_team_id": 8261554
+										},
+										{
+											"match_id": "6999717921",
+											"winning_team_id": 8261554
+										}
+									],
+									"team_1_wins": 2,
+									"team_2_wins": 0,
+									"has_started": true,
+									"is_completed": true,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 9",
+									"node_id": 3,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1675594800,
+									"actual_time": 1675594817,
+									"series_id": 747372,
+									"team_id_1": 8261554,
+									"team_id_2": 8572181,
+									"matches": [
+										{
+											"match_id": "7003140519",
+											"winning_team_id": 8261554
+										},
+										{
+											"match_id": "7003222236",
+											"winning_team_id": 8261554
+										}
+									],
+									"team_1_wins": 2,
+									"team_2_wins": 0,
+									"has_started": true,
+									"is_completed": true,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 19",
+									"node_id": 4,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676437200,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8261554,
+									"team_id_2": 8736661,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 3",
+									"node_id": 5,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1675249200,
+									"actual_time": 1675251161,
+									"series_id": 746088,
+									"team_id_1": 8261554,
+									"team_id_2": 8863825,
+									"matches": [
+										{
+											"match_id": "6996815013",
+											"winning_team_id": 8261554
+										},
+										{
+											"match_id": "6996913771",
+											"winning_team_id": 8261554
+										}
+									],
+									"team_1_wins": 2,
+									"team_2_wins": 0,
+									"has_started": true,
+									"is_completed": true,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 28",
+									"node_id": 6,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676955600,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8261554,
+									"team_id_2": 8936995,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 14",
+									"node_id": 7,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676016000,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8261554,
+									"team_id_2": 8944302,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 20",
+									"node_id": 8,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676448000,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8525778,
+									"team_id_2": 8538804,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 5",
+									"node_id": 9,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1675411200,
+									"actual_time": 1675411228,
+									"series_id": 746695,
+									"team_id_1": 8525778,
+									"team_id_2": 8572181,
+									"matches": [
+										{
+											"match_id": "6999468122",
+											"winning_team_id": 8525778
+										},
+										{
+											"match_id": "6999536933",
+											"winning_team_id": 8525778
+										}
+									],
+									"team_1_wins": 2,
+									"team_2_wins": 0,
+									"has_started": true,
+									"is_completed": true,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 2",
+									"node_id": 10,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1675238400,
+									"actual_time": 1675242485,
+									"series_id": 746070,
+									"team_id_1": 8525778,
+									"team_id_2": 8736661,
+									"matches": [
+										{
+											"match_id": "6996673241",
+											"winning_team_id": 8525778
+										},
+										{
+											"match_id": "6996738013",
+											"winning_team_id": 8525778
+										}
+									],
+									"team_1_wins": 2,
+									"team_2_wins": 0,
+									"has_started": true,
+									"is_completed": true,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 15",
+									"node_id": 11,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676026800,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8525778,
+									"team_id_2": 8863825,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 10",
+									"node_id": 12,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1675832400,
+									"actual_time": 1675832543,
+									"series_id": 748263,
+									"team_id_1": 8525778,
+									"team_id_2": 8936995,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": true,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 27",
+									"node_id": 13,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676804400,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8525778,
+									"team_id_2": 8944302,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 1",
+									"node_id": 14,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1675227600,
+									"actual_time": 1675227808,
+									"series_id": 746040,
+									"team_id_1": 8572181,
+									"team_id_2": 8538804,
+									"matches": [
+										{
+											"match_id": "6996482015",
+											"winning_team_id": 8572181
+										},
+										{
+											"match_id": "6996534921",
+											"winning_team_id": 8538804
+										},
+										{
+											"match_id": "6996575977",
+											"winning_team_id": 8538804
+										},
+										{
+											"match_id": "6996588994",
+											"winning_team_id": 8572181
+										}
+									],
+									"team_1_wins": 2,
+									"team_2_wins": 1,
+									"has_started": true,
+									"is_completed": true,
+									"stream_ids": [
+										4706
+									],
+									"vods": []
+								},
+								{
+									"name": "Match 16",
+									"node_id": 15,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676178000,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8538804,
+									"team_id_2": 8736661,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 26",
+									"node_id": 16,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676793600,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8538804,
+									"team_id_2": 8863825,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 23",
+									"node_id": 17,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676620800,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8538804,
+									"team_id_2": 8936995,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 11",
+									"node_id": 18,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1675843200,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8538804,
+									"team_id_2": 8944302,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 25",
+									"node_id": 19,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676782800,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8572181,
+									"team_id_2": 8736661,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 21",
+									"node_id": 20,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676458800,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8572181,
+									"team_id_2": 8863825,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 13",
+									"node_id": 21,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676005200,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8572181,
+									"team_id_2": 8936995,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 17",
+									"node_id": 22,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676188800,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8572181,
+									"team_id_2": 8944302,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 12",
+									"node_id": 23,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1675854000,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8736661,
+									"team_id_2": 8863825,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 7",
+									"node_id": 24,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1675573200,
+									"actual_time": 1675573239,
+									"series_id": 747288,
+									"team_id_1": 8736661,
+									"team_id_2": 8936995,
+									"matches": [
+										{
+											"match_id": "7002701910",
+											"winning_team_id": 8736661
+										},
+										{
+											"match_id": "7002754245",
+											"winning_team_id": 8936995
+										},
+										{
+											"match_id": "7002826180",
+											"winning_team_id": 8936995
+										}
+									],
+									"team_1_wins": 1,
+									"team_2_wins": 2,
+									"has_started": true,
+									"is_completed": true,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 22",
+									"node_id": 25,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676610000,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8736661,
+									"team_id_2": 8944302,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 18",
+									"node_id": 26,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1676199600,
+									"actual_time": 0,
+									"series_id": 0,
+									"team_id_1": 8863825,
+									"team_id_2": 8936995,
+									"matches": [],
+									"team_1_wins": 0,
+									"team_2_wins": 0,
+									"has_started": false,
+									"is_completed": false,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 8",
+									"node_id": 27,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1675584000,
+									"actual_time": 1675584626,
+									"series_id": 747337,
+									"team_id_1": 8863825,
+									"team_id_2": 8944302,
+									"matches": [
+										{
+											"match_id": "7002918171",
+											"winning_team_id": 8863825
+										},
+										{
+											"match_id": "7003011976",
+											"winning_team_id": 8863825
+										}
+									],
+									"team_1_wins": 2,
+									"team_2_wins": 0,
+									"has_started": true,
+									"is_completed": true,
+									"stream_ids": [],
+									"vods": []
+								},
+								{
+									"name": "Match 4",
+									"node_id": 28,
+									"node_group_id": 2,
+									"winning_node_id": 0,
+									"losing_node_id": 0,
+									"incoming_node_id_1": 0,
+									"incoming_node_id_2": 0,
+									"node_type": 2,
+									"scheduled_time": 1675400400,
+									"actual_time": 1675400557,
+									"series_id": 746667,
+									"team_id_1": 8936995,
+									"team_id_2": 8944302,
+									"matches": [
+										{
+											"match_id": "6999344920",
+											"winning_team_id": 8944302
+										},
+										{
+											"match_id": "6999403463",
+											"winning_team_id": 8944302
+										},
+										{
+											"match_id": "6999410994",
+											"winning_team_id": 8936995
+										},
+										{
+											"match_id": "6999412603",
+											"winning_team_id": 8944302
+										}
+									],
+									"team_1_wins": 0,
+									"team_2_wins": 2,
+									"has_started": true,
+									"is_completed": true,
+									"stream_ids": [],
+									"vods": []
+								}
+							],
+							"node_groups": []
+						}
+					]
+				}
+			],
+			"series_infos": [
+				{
+					"series_id": 747372,
+					"series_type": 1,
+					"start_time": 1675594817,
+					"match_ids": [
+						"7003140519",
+						"7003222236"
+					],
+					"team_id_1": 8572181,
+					"team_id_2": 8261554
+				},
+				{
+					"series_id": 747337,
+					"series_type": 1,
+					"start_time": 1675584625,
+					"match_ids": [
+						"7002918171",
+						"7003011976"
+					],
+					"team_id_1": 8944302,
+					"team_id_2": 8863825
+				},
+				{
+					"series_id": 747288,
+					"series_type": 1,
+					"start_time": 1675573239,
+					"match_ids": [
+						"7002701910",
+						"7002754245",
+						"7002826180"
+					],
+					"team_id_1": 8736661,
+					"team_id_2": 8936995
+				},
+				{
+					"series_id": 746713,
+					"series_type": 1,
+					"start_time": 1675422022,
+					"match_ids": [
+						"6999648564",
+						"6999717921"
+					],
+					"team_id_1": 8538804,
+					"team_id_2": 8261554
+				},
+				{
+					"series_id": 746695,
+					"series_type": 1,
+					"start_time": 1675411228,
+					"match_ids": [
+						"6999468122",
+						"6999536933"
+					],
+					"team_id_1": 8525778,
+					"team_id_2": 8572181
+				},
+				{
+					"series_id": 746667,
+					"series_type": 1,
+					"start_time": 1675400556,
+					"match_ids": [
+						"6999344920",
+						"6999403463",
+						"6999410994",
+						"6999412603"
+					],
+					"team_id_1": 8936995,
+					"team_id_2": 8944302
+				},
+				{
+					"series_id": 746088,
+					"series_type": 1,
+					"start_time": 1675251160,
+					"match_ids": [
+						"6996815013",
+						"6996913771"
+					],
+					"team_id_1": 8863825,
+					"team_id_2": 8261554
+				},
+				{
+					"series_id": 746070,
+					"series_type": 1,
+					"start_time": 1675242484,
+					"match_ids": [
+						"6996673241",
+						"6996738013"
+					],
+					"team_id_1": 8736661,
+					"team_id_2": 8525778
+				},
+				{
+					"series_id": 746040,
+					"series_type": 1,
+					"start_time": 1675227807,
+					"match_ids": [
+						"6996482015",
+						"6996534921",
+						"6996575977",
+						"6996588994"
+					],
+					"team_id_1": 8538804,
+					"team_id_2": 8572181
+				}
+			],
+			"registered_players": [
+				{
+					"account_id": 118559150,
+					"name": "Varizh",
+					"team_id": 8261554
+				},
+				{
+					"account_id": 150862738,
+					"name": "Yowe",
+					"team_id": 8261554
+				},
+				{
+					"account_id": 152859296,
+					"name": "Jhocam",
+					"team_id": 8261554
+				},
+				{
+					"account_id": 153727297,
+					"name": "db-",
+					"team_id": 8261554
+				},
+				{
+					"account_id": 181716137,
+					"name": "在你的梦里丶",
+					"team_id": 8261554
+				},
+				{
+					"account_id": 100616105,
+					"name": "cml",
+					"team_id": 8525778
+				},
+				{
+					"account_id": 104512126,
+					"name": "Mac",
+					"team_id": 8525778
+				},
+				{
+					"account_id": 113874152,
+					"name": "Bok",
+					"team_id": 8525778
+				},
+				{
+					"account_id": 219755398,
+					"name": "Jîng",
+					"team_id": 8525778
+				},
+				{
+					"account_id": 330534326,
+					"name": "Akashi",
+					"team_id": 8525778
+				},
+				{
+					"account_id": 126842529,
+					"name": "Ws",
+					"team_id": 8538804
+				},
+				{
+					"account_id": 146076829,
+					"name": "MangO `ROSE",
+					"team_id": 8538804
+				},
+				{
+					"account_id": 293904640,
+					"name": "ponyo",
+					"team_id": 8538804
+				},
+				{
+					"account_id": 322925642,
+					"name": "Wonder'boy",
+					"team_id": 8538804
+				},
+				{
+					"account_id": 931145002,
+					"name": "Sans'",
+					"team_id": 8538804
+				},
+				{
+					"account_id": 58429537,
+					"name": "LionaX",
+					"team_id": 8572181
+				},
+				{
+					"account_id": 81481903,
+					"name": "tnt",
+					"team_id": 8572181
+				},
+				{
+					"account_id": 101460882,
+					"name": "Boombui",
+					"team_id": 8572181
+				},
+				{
+					"account_id": 282359850,
+					"name": "BEEBIE",
+					"team_id": 8572181
+				},
+				{
+					"account_id": 285770518,
+					"name": "KNP",
+					"team_id": 8572181
+				},
+				{
+					"account_id": 110759067,
+					"name": "Jaja",
+					"team_id": 8736661
+				},
+				{
+					"account_id": 136737280,
+					"name": "JG",
+					"team_id": 8736661
+				},
+				{
+					"account_id": 145331311,
+					"name": "Rupido",
+					"team_id": 8736661
+				},
+				{
+					"account_id": 228517469,
+					"name": "bombi",
+					"team_id": 8736661
+				},
+				{
+					"account_id": 353424606,
+					"name": "Karma丶",
+					"team_id": 8736661
+				},
+				{
+					"account_id": 140411011,
+					"name": "TraVins",
+					"team_id": 8863825
+				},
+				{
+					"account_id": 155447692,
+					"name": "dalul",
+					"team_id": 8863825
+				},
+				{
+					"account_id": 162126721,
+					"name": "jikroy",
+					"team_id": 8863825
+				},
+				{
+					"account_id": 198631761,
+					"name": "Red.NTP",
+					"team_id": 8863825
+				},
+				{
+					"account_id": 248388120,
+					"name": "MamangDaya",
+					"team_id": 8863825
+				},
+				{
+					"account_id": 110142194,
+					"name": "无名-",
+					"team_id": 8936995
+				},
+				{
+					"account_id": 113152484,
+					"name": "Nevermine",
+					"team_id": 8936995
+				},
+				{
+					"account_id": 126397214,
+					"name": "TrazaM",
+					"team_id": 8936995
+				},
+				{
+					"account_id": 169416589,
+					"name": "Czy",
+					"team_id": 8936995
+				},
+				{
+					"account_id": 260408033,
+					"name": "Mercury-",
+					"team_id": 8936995
+				},
+				{
+					"account_id": 48594480,
+					"name": "xsilearn",
+					"team_id": 8944302
+				},
+				{
+					"account_id": 91369376,
+					"name": "Meracle",
+					"team_id": 8944302
+				},
+				{
+					"account_id": 147767183,
+					"name": "zeal",
+					"team_id": 8944302
+				},
+				{
+					"account_id": 209287073,
+					"name": "khishka",
+					"team_id": 8944302
+				},
+				{
+					"account_id": 323792491,
+					"name": "vvvv!",
+					"team_id": 8944302
+				}
+			]
+		}
+	]
+}
