@@ -66,7 +66,13 @@ func GetAllLeagueSchedule(league_ids []int) []util.League {
 			sort.Slice(matchs, func(i, j int) bool {
 				return matchs[i].StartTime.Before(matchs[j].StartTime)
 			})
-			ansC <- util.League{Name: league.Info.Name, Region: util.RegionIntToRegionString(league.Info.Region), Matchs: matchs}
+			url := ""
+			for _, stream := range league.Streams {
+				if stream.Language == 0 {
+					url = stream.StreamURL
+				}
+			}
+			ansC <- util.League{Name: league.Info.Name, Region: util.RegionIntToRegionString(league.Info.Region), Matchs: matchs, URL: url}
 			//fmt.Println(len(matchs))
 			wg.Done()
 		}()

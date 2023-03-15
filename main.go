@@ -25,6 +25,10 @@ func main() {
 		fmt.Print("please input leagueID separate with comma (Ex.14859,14927,14921 ): ")
 		fmt.Scanln(&leagueIDs)
 	}
+	if month == int(time.Now().Month()) {
+		fmt.Print("please input month number to generate (Ex.1 for january): ")
+		fmt.Scanln(&month)
+	}
 	stringIDs := strings.Split(leagueIDs, ",")
 	IDs := []int{}
 

@@ -90,3 +90,55 @@ func MonthIntToString(monthNum int) string {
 		return "Invalid month number"
 	}
 }
+
+func MonthToDays(month int) int {
+	switch month {
+	case 1:
+		return 31
+	case 2:
+		return 28
+	case 3:
+		return 31
+	case 4:
+		return 30
+	case 5:
+		return 31
+	case 6:
+		return 30
+	case 7:
+		return 31
+	case 8:
+		return 31
+	case 9:
+		return 30
+	case 10:
+		return 31
+	case 11:
+		return 30
+	case 12:
+		return 31
+	default:
+		return 0
+	}
+}
+
+func WeekdayToColor(weekday string) string {
+	switch weekday {
+	case "Monday":
+		return "#FFFF00" // yellow
+	case "Tuesday":
+		return "#FF69B4" // pink
+	case "Wednesday":
+		return "#008000" // green
+	case "Thursday":
+		return "#FFA500" // orange
+	case "Friday":
+		return "#0000FF" // blue
+	case "Saturday":
+		return "#7600BC" // violet
+	case "Sunday":
+		return "#FF0000" // red
+	default:
+		return "#000000"
+	}
+}

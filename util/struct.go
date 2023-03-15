@@ -183,4 +183,5 @@ type League struct {
 	Name   string
 	Region string
 	Matchs []Match
+	URL    string
 }
